@@ -12,3 +12,4 @@ local opts = { noremap = true, silent = true }
 map('n', '<leader>,', '<Cmd>BufferPrevious<CR>', opts)
 map('n', '<leader>.', '<Cmd>BufferNext<CR>', opts)
 map('n', '<leader>w', '<Cmd>BufferClose<CR>', opts)
+map('n', '<leader>lg', '<Cmd>LazyGit<CR>', opts)
